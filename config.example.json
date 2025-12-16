@@ -1,0 +1,18 @@
+{
+  "defaultServer": {
+    "host": "127.0.0.1",
+    "port": 27015
+  },
+  "rcon": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 27015,
+    "password": "your_rcon_password_here"
+  },
+  "updateMessage": {
+    "enabled": false,
+    "channelId": "DISCORD_CHANNEL_ID_TO_POST_UPDATES",
+    "messageId": "",
+    "intervalSeconds": 60
+  }
+}

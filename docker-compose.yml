@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  dods-bot:
+    build: .
+    container_name: dods-discord-bot
+    env_file:
+      - .env
+    volumes:
+      - ./config.json:/app/config.json:ro
+      - ./state.json:/app/state.json
+    restart: unless-stopped
